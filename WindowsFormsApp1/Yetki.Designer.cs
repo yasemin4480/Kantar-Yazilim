@@ -36,6 +36,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.ıconButton2 = new FontAwesome.Sharp.IconButton();
             this.ıconButton3 = new FontAwesome.Sharp.IconButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ıconPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ıconPictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ıconPictureBox3)).BeginInit();
@@ -146,12 +148,34 @@
             this.ıconButton3.UseVisualStyleBackColor = true;
             this.ıconButton3.Click += new System.EventHandler(this.ıconButton3_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(401, 227);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "ID : a";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(401, 287);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "PW : a";
+            // 
             // Yetki
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(493, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ıconButton3);
             this.Controls.Add(this.ıconButton2);
             this.Controls.Add(this.textBox2);
@@ -184,5 +208,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private FontAwesome.Sharp.IconButton ıconButton2;
         private FontAwesome.Sharp.IconButton ıconButton3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
